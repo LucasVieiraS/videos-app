@@ -1,5 +1,5 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
       VIDEOS
     </ion-title>
@@ -7,5 +7,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-
+  <ion-grid>
+    <ion-list>
+      <ion-item routerLink="/carros">
+        <ion-thumbnail>
+          <img
+            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2nM2NRV8wt3n3ffoHQ3KdMkY3vR.jpg"
+          />
+        </ion-thumbnail>
+        <ion-card-content>
+          <p>Carros</p>
+          <span>(2006)</span>
+        </ion-card-content>
+        <ion-chip>60%</ion-chip>
+      </ion-item>
+    </ion-list>
+  </ion-grid>
 </ion-content>
