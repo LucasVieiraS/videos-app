@@ -3,6 +3,13 @@
 
 /** Ionic CSS Variables **/
 :root {
+	--ion-color-topbar: #ff4242;
+	--ion-color-topbar-rgb: 255,66,66;
+	--ion-color-topbar-contrast: #ffffff;
+	--ion-color-topbar-contrast-rgb: 255,255,255;
+	--ion-color-topbar-shade: #e03a3a;
+	--ion-color-topbar-tint: #ff5555;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +240,13 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-topbar {
+	--ion-color-base: var(--ion-color-topbar);
+	--ion-color-base-rgb: var(--ion-color-topbar-rgb);
+	--ion-color-contrast: var(--ion-color-topbar-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-topbar-contrast-rgb);
+	--ion-color-shade: var(--ion-color-topbar-shade);
+	--ion-color-tint: var(--ion-color-topbar-tint);
 }

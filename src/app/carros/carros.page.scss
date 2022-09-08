@@ -1,0 +1,25 @@
+ion-thumbnail {
+  height: 90%;
+  width: 5rem;
+  img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 4px;
+  }
+}
+
+ion-card-content {
+  height: 100%;
+  width: 80%;
+  padding: .85rem;
+  padding-top: 0;
+  p {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  span {
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255, .5);
+  }
+}
