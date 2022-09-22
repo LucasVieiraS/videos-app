@@ -4,24 +4,37 @@ ion-thumbnail {
   img {
     height: 100%;
     width: 100%;
-
+    min-width: 5rem;
+    max-height: 7rem;
     border-radius: 4px;
   }
 }
 
 ion-item {
+  margin-top: .2rem;
+  margin-bottom: 1rem;
   ion-card-content {
     height: 100%;
     width: 80%;
     padding: .85rem;
     padding-top: 0;
-    p {
-      font-weight: bold;
-      font-size: 2rem;
-    }
-    span {
-      font-size: 1.25rem;
-      color: rgb(255, 255, 255, .5);
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      p {
+        width: fit-content;
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      p+p {
+        width: fit-content;
+        margin-left: .5rem;
+        font-size: 1rem;
+        color: rgb(95, 95, 95);
+      }
     }
   }
   ion-chip {

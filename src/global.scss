@@ -25,17 +25,54 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Robotodisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 ion-toolbar {
   ion-title {
     color: black;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
     font-size: 1.5rem;
   }
+}
+
+ion-toolbar {
+  --background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  ion-title {
+    color: #F1F1F1;
+  }
+}
+
+.section-title {
+  p {
+    font-weight: 600;
+  }
+  ion-icon {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+    margin-bottom: .1rem;
+  }
+}
+
+.section-content {
+  p {
+    width: 100%;
+    height: 100%;
+    padding: .8rem;
+  }
+}
+
+.error-text {
+  font-weight: 600;
+  font-size: .8rem;
+  margin: auto;
+}
+
+ion-back-button {
+  color: white;
 }
